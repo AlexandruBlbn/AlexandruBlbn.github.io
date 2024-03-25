@@ -66,8 +66,7 @@ background-color: #020D19;
   }
   .socials{
     padding: 15px;
-
-   float: left;
+    float: left;
 
   }
   #navi {
@@ -86,33 +85,17 @@ background-color: #020D19;
  
   }
   
-#insta{
+
+#image {
   width: 48px;
 }
-
-
-#insta:hover{
+#image:hover {
   -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
   animation: pulsate-fwd 1s ease-in-out infinite both;
 }
 
-
-#linkedn{
-  width: 48px;
-}
-#linkedn:hover{
-  -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
-  animation: pulsate-fwd 1s ease-in-out infinite both;
-}
-#github{
-  width: 48px;}
-#github:hover{
-  -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
-  animation: pulsate-fwd 1s ease-in-out infinite both;
-}
 
 /* 2.5s delay pana acum. */
-
 
 h1 {
   color: white;
@@ -134,13 +117,14 @@ flex-direction: column;
 #title_hello{
   text-align: center;
   font-family: Hello;
-  font-size: 12vh;
+  font-size: 128px;
   color: #FBFBFB;
   -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.5s both;
   animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.5s both;
   letter-spacing: 7px;
-  height: 100px;
+
   justify-content: center;
+  margin: 30px 0;
 }
 
 
@@ -154,3 +138,25 @@ flex-direction: column;
   animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3.2s both;
 }
 
+#link_github{
+  text-decoration: none;
+  color: orchid;
+}
+
+#subtitle_hello{
+}
+
+#gif1{
+  width: 730px;
+  height: 500px;
+  z-index: -1;
+  margin: auto;
+  margin-top: 50px;
+  opacity:  .2;
+  justify-content: center;
+
+}
+
+
+
+  
