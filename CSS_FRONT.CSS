@@ -67,6 +67,7 @@ background-color: #020D19;
   .socials{
     padding: 15px;
     float: left;
+    margin-right: 80px;
 
   }
   #navi {
@@ -105,6 +106,7 @@ h1 {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  margin: 0px 30px;
 }
 .title {
 display: flex;
@@ -149,12 +151,21 @@ flex-direction: column;
 #gif1{
   width: 730px;
   height: 500px;
-  z-index: -1;
+  z-index: 1;
   margin: auto;
-  margin-top: 50px;
-  opacity:  .2;
-  justify-content: center;
 
+  justify-content: center;
+  opacity: 0.2;
+
+}
+
+#imagine1{
+  margin-top: 50px;
+  overflow: hidden;
+  border: 0.5px solid #020D19;
+  border-radius: 4px;
+  -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
 }
 
 
