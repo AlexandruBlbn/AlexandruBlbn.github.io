@@ -26,7 +26,11 @@
     width: 380px;
     height: 250px;
     opacity: 0.2;
+  }
 
+  #rand2{
+    display:  flex;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1300px){
@@ -57,4 +61,55 @@
         flex-direction: column;
       }
 
+}
+
+
+/* Adăugarea unei regiuni de stil pentru ecranele mici (de exemplu, telefoane) */
+@media only screen and (max-width: 768px) {
+  /* Modificări pentru bara de navigare */
+  .header {
+    padding: 0 20px; /* Reducerea padding-ului pentru a se potrivi mai bine pe ecranele mici */
+  }
+
+  /* Ajustarea dimensiunilor imaginilor */
+  #image {
+    width: 30px; /* Reducerea dimensiunii imaginilor */
+  }
+
+  /* Ajustarea stilului pentru textul principal */
+  #title_hello {
+    font-size: 64px; /* Reducerea dimensiunii textului principal */
+    letter-spacing: 3px; /* Reducerea spațierii dintre litere */
+  }
+
+  /* Ajustarea stilului pentru textul secundar */
+  #subtitle_hello {
+    font-size: 14px; /* Reducerea dimensiunii textului secundar */
+    padding: 10px 20px; /* Reducerea padding-ului pentru a se potrivi mai bine pe ecranele mici */
+  }
+
+  /* Ajustarea stilului pentru secțiunea cu limbaje */
+  #limbaje {
+    flex-direction: column; /* Schimbarea direcției elementelor pentru a se potrivi pe ecranele mici */
+    align-items: center; /* Centrarea elementelor */
+    margin-top: 50px; /* Reducerea spațiului de sus */
+  }
+
+  /* Ajustarea stilului pentru fiecare limbaj */
+  #limbaj {
+    width: auto; /* Ajustarea lățimii */
+    padding: 20px; /* Reducerea padding-ului pentru a se potrivi mai bine pe ecranele mici */
+    text-align: center; /* Centrarea textului */
+  }
+
+  /* Ajustarea stilului pentru descrierea textului */
+  #desc_text {
+    font-size: 12px; /* Reducerea dimensiunii textului */
+  }
+
+  /* Ajustarea stilului pentru imaginea personală */
+  #poza_personala {
+    width: 200px; /* Reducerea dimensiunii imaginii */
+    height: 200px; /* Reducerea dimensiunii imaginii */
+  }
 }
