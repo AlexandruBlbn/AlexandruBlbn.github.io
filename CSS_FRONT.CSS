@@ -172,6 +172,8 @@ flex-direction: column;
   height: 360px;
   width: 360px;
   overflow: hidden;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.8s both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.8s both;
 }
 
 
@@ -231,4 +233,9 @@ flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
   color: #FBFBFB;
   font-size: 16px;
+}
+
+#rand2{
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.0s both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.0s both;
 }
